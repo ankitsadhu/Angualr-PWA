@@ -1,0 +1,5 @@
+<h1>Team Members</h1>
+<button (click)="postSync()">Post Data</button>
+<div *ngFor="let emp of apiData">
+    <h2>{{ emp.employee_name }}</h2>
+</div>

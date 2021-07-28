@@ -1,0 +1,183 @@
+<div class="cards">
+  <div class="card">
+    <img class="card__image" src={{data[0].pic}} alt="{{data[0].name}}">
+    <div class="card__content">
+      <p>
+       {{data[0].name}} <b>{{'['+data[0].designation +']'}}</b>
+      </p>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>310
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card__image" src={{data[1].pic}} alt="{{data[1].name}}">
+    <div class="card__content">
+      <p>
+       {{data[1].name}} <b>{{'['+data[1].designation +']'}}</b>
+      </p>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>1,993
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card__image" src={{data[2].pic}} alt="{{data[0].name}}">
+    <div class="card__content">
+      <p>
+       {{data[2].name}} <b>{{'['+data[2].designation +']'}}</b>
+      </p>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>887
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card__image" src={{data[3].pic}} alt="{{data[3].name}}">
+    <div class="card__content">
+      <p>
+       {{data[3].name}} <b>{{'['+data[3].designation +']'}}</b>
+      </p>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>2,512
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card__image" src={{data[4].pic}} alt="{{data[4].name}}">
+    <div class="card__content">
+      <p>
+       {{data[4].name}} <b>{{'['+data[4].designation +']'}}</b>
+      </p>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>140
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="card__image" src={{data[5].pic}} alt="{{data[5].name}}">
+    <div class="card__content">
+      <p>
+       {{data[5].name}} <b>{{'['+data[5].designation +']'}}</b>
+      </p>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>140
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card__image" src={{data[6].pic}} alt="{{data[6].name}}">
+    <div class="card__content">
+      <p>
+       {{data[6].name}} <b>{{'['+data[6].designation +']'}}</b>
+      </p>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>310
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card__image" src={{data[7].pic}} alt="{{data[7].name}}">
+    <div class="card__content">
+      <p>
+       {{data[7].name}} <b>{{'['+data[7].designation +']'}}</b>
+      </p>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>1,993
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card__image" src={{data[8].pic}} alt="{{data[8].name}}">
+    <div class="card__content">
+      <p>
+       {{data[8].name}} <b>{{'['+data[8].designation +']'}}</b>
+      </p>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>887
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card__image" src={{data[9].pic}} alt="{{data[9].name}}">
+    <div class="card__content">
+      <p>
+       {{data[9].name}} <b>{{'['+data[9].designation +']'}}</b>
+      </p>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>2,512
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card__image" src={{data[10].pic}} alt="{{data[10].name}}">
+    <div class="card__content">
+      <p>
+       {{data[10].name}} <b>{{'['+data[10].designation +']'}}</b>
+      </p>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>140
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="card__image" src={{data[11].pic}} alt="{{data[11].name}}">
+    <div class="card__content">
+      <p>
+       {{data[11].name}} <b>{{'['+data[11].designation +']'}}</b>
+      </p>
+    </div>
+    <div class="card__info">
+      <div>
+        <i class="material-icons">thumb_up</i>140
+      </div>
+    </div>
+  </div>
+</div>
+
+<nav class="nav" *ngIf="isMobileWindow">
+    <a href="#" class="nav__link">
+      <i class="material-icons nav__icon">dashboard</i>
+      <span class="nav__text">Dashboard</span>
+    </a>
+    <a href="#" class="nav__link nav__link--active">
+      <i class="material-icons nav__icon">person</i>
+      <span class="nav__text">Profile</span>
+    </a>
+    <a href="#" class="nav__link">
+      <i class="material-icons nav__icon">devices</i>
+      <span class="nav__text">Devices</span>
+    </a>
+    <a href="#" class="nav__link">
+      <i class="material-icons nav__icon">lock</i>
+      <span class="nav__text">Privacy</span>
+    </a>
+    <a href="#" class="nav__link">
+      <i class="material-icons nav__icon">settings</i>
+      <span class="nav__text">Settings</span>
+    </a>
+  </nav>
